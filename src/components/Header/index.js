@@ -17,16 +17,16 @@ export default function Header() {
         </nav>
         <aside>
           <ul>
-            <Link to="/topic">
+            <Link to="/topic01">
               <li>JOGOS</li>
             </Link>
-            <Link to="/topic">
+            <Link to="/topic02">
               <li>INTELIGÊNCIA ARTIFICIAL</li>
             </Link>
-            <Link to="/topic">
+            <Link to="/topic03">
               <li>MOBILE APPS</li>
             </Link>
-            <Link to="/topic">
+            <Link to="/topic04">
               <li>ROBÓTICA</li>
             </Link>
           </ul>

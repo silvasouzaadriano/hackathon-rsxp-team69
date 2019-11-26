@@ -7,4 +7,14 @@ export const Container = styled.div`
   margin-right: 10px;
   margin-bottom: 10px;
   text-align: center;
+
+  section {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  a {
+    font-size: 30px;
+  }
 `;
