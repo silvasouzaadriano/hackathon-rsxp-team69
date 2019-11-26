@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import MobileApps from '~/assets/MobileApps.png';
-
 import { Container } from './styles';
 import { Content } from '~/components/Header/styles';
+
+import MobileApps from '~/assets/MobileApps.png';
 
 export default function Topic03() {
   return (
