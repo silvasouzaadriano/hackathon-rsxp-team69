@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
-  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
   padding: 0 30;
   border-bottom: 1px solid #000;
 `;
+
 export const Content = styled.div`
   height: 64px;
   max-width: 1170px;

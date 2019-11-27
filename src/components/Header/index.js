@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import history from '~/services/history';
 
 import Home from '~/assets/home.png';
 
