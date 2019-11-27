@@ -1,0 +1,128 @@
+{
+  "partner": [
+    {
+      "id": 1,
+      "name": "Brave CG School",
+      "subject": [
+        {
+          "id": 1,
+          "title": "Games",
+          "description": "Curso de Especialização em Computação Gráfica. A Brave CG School é a escola Online que tem como objetivo ensinar e capacitar seus alunos nas técnicas de Modelagem de Personagens, Animação 3D e VFX para as industrias de Cinema, Games e TV.Nascida para inovar, a Brave CG School realiza constantes estudos buscando o que a de mais novo em tecnologias que revolucionem a forma de se fazer arte digital. Desenvolve e aplica constantemente conteúdos exclusivos para seus treinamentos, trazendo para seus alunos a experiencia e o conhecimento que os deixam a frente do mercado profissional.A Brave CG School tem como principal objetivo preparar e capacitar seus alunos para serem especialistas, pois além de proporcionar conteúdo exclusivo, todos os cursos são ministrados usando práticas e metodologias únicas, desenvolvidas pela instituição e reconhecidas internacionalmente.",
+          "training": [
+            {
+              "id": 1,
+              "title": "CURSO 3D FORGE - ZBRUSH ESCULTURA DIGITAL",
+              "description": "3D Forge é sem dúvida o curso que promove a experiência de modelagem 3D e Textura mais completa que você pode imaginar, pois proporciona alto nível de conhecimento profissional para que você possa criar seus personagens para Games e Cinema sem maiores dif...",
+              "url": "https://brave-cg-school-digital-art-e-vfx.business.site/posts/6583732080134649058?hl=pt-BR"
+            },
+            {
+              "id": 2,
+              "title": "Curso 3D Forge - ZBrush para Personagens 3D",
+              "description": "Este curso é ministrado na modalidade ONLINE AO VIVO. O diferencial deste curso está em nosso módulo exclusivo de modelagem para Action Figures, aonde você aprende a modelar e exportar seu personagem corretamente para ser impresso em 3D.",
+              "url": "https://brave-cg-school-digital-art-e-vfx.business.site/posts/6005213104565041273?hl=pt-BR"
+            },
+            {
+              "id": 3,
+              "title": "Curso IMPULSE - Motion Design",
+              "description": "Você já ouviu falar sobre o UX Motion? Então você sabe que não é apenas um simples processo de animar interface, é necessário muito mais, entender seus conceitos, desenvolver o pensamento crítico para que possa criar a experiencia completa que o usuário espera em uma interface de qualidade, estar por dentro das novidades, entre outras coisas!",
+              "url": "https://brave-cg-school-digital-art-e-vfx.business.site/posts/327382526448031184?hl=pt-BR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "subject": [
+        {
+          "id": 1,
+          "title": "IA",
+          "description": "Enxergamos inteligência artificial, machine learning, deep learning e serviços cognitivos em geral como o novo direcionamento da tecnologia. Além disso, a Microsoft tem o objetivo de democratizar a IA. Por meio da capacitação profissional e do contato com a tecnologia, nós nos esforçamos neste sentido. E se você quer ingressar nesta jornada conosco, seguem alguns cursos totalmente gratuitos sobre IA. Confia a lista. ",
+          "training": [
+            {
+              "id": 1,
+              "title": "Desenvolvendo IA  Bootcamp;",
+              "description": "Este caminho guiará qualquer pessoa que queira mergulhar na IA através dos conceitos e tecnologias de alto nível na plataforma Microsoft AI.",
+              "url": "https://aischool.microsoft.com/learning-paths/7sn9iUpX2wcE6AY84CeW02?wt.mc_id=AID636721_QSG_BLOG_246655"
+            },
+            {
+              "id": 2,
+              "title": "Visão personalizada de serviços",
+              "description": "O Visual Intelligence ficou fácil - saiba como personalizar facilmente seus próprios modelos de visão por computador de última geração para o seu caso de uso exclusivo. Faça o upload de algumas imagens rotuladas e deixe o Serviço Custom Vision fazer o trabalho pesado.",
+              "url": "https://aischool.microsoft.com/learning-paths/iyIi141DosMMMIAg2YCuk?wt.mc_id=AID636721_QSG_BLOG_246656"
+            },
+            {
+              "id": 3,
+              "title": "Introdução a inteligencia artificial (AI)",
+              "description": "Uma visão geral de alto nível da IA ​​para entender completamente como o Machine Learning fornece a base para a IA e como você pode aproveitar os serviços cognitivos em seus aplicativos.",
+              "url": "https://aischool.microsoft.com/learning-paths/1Gu7IvI1dyUKUUUcgi6A0A?wt.mc_id=AID636721_QSG_BLOG_246657"
+            },
+            {
+              "id": 4,
+              "title": "Contruindo Bots com  REST",
+              "description": "As APIs REST do Bot Framework permitem criar bots que trocam mensagens com canais configurados no Portal do Bot Framework, armazenam e recuperam dados de estado e conectam seus próprios aplicativos clientes aos seus bots. Todos os serviços do Bot Framework usam REST e JSON padrão do setor sobre HTTPS.",
+              "url": "https://aischool.microsoft.com/learning-paths/DdwGRNZ42GUIa84iaQoei?wt.mc_id=AID636721_QSG_BLOG_246658"
+            },
+            {
+              "id": 5,
+              "title": "Serviços cognitivos - API Visão comutacional.",
+              "description": "A API Computer Vision baseada em nuvem fornece aos desenvolvedores acesso a algoritmos avançados para processar imagens e retornar informações. Ao fazer upload de uma imagem ou especificar um URL de imagem, os algoritmos do Microsoft Computer Vision podem analisar o conteúdo visual de diferentes maneiras, com base nas entradas e nas opções do usuário. Aprenda a analisar o conteúdo visual de diferentes maneiras com nossas iniciações rápidas, tutoriais e amostras.",
+              "url": "https://aischool.microsoft.com/learning-paths/3tgTpxQfqoqWOW8OAEK8uS?wt.mc_id=AID636721_QSG_BLOG_246659"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rocketseat",
+      "subject": [
+        {
+          "id": 1,
+          "title": "Mobile",
+          "description": "Neste curso você vai descobrir o jeito mais moderno de desenvolver apps nativos para iOS e Android, construindo do zero um app mobile e entendendo na prática como o React Native funciona.",
+          "training": [
+            {
+              "id": 1,
+              "title": "JavaScript",
+              "description": "Recomendado para quem quer se especializar em desenvolvimento web ou mobile com JavaScript.",
+              "url": "https://rocketseat.com.br/starter/curso-gratuito-javascript"
+            },
+            {
+              "id": 2,
+              "title": "EcmaScript6",
+              "description": "Esse curso é recomendado para quem deseja ir a fundo no JavaScript e iniciar com bibliotecas como ReactJS, VueJS, Angular, React Native e NodeJS.",
+              "url": "https://rocketseat.com.br/starter/curso-gratuito-javascript-es6"
+            },
+            {
+              "id": 3,
+              "title": "React Native",
+              "description": "Esse curso é recomendado para quem deseja criar apps mobile nativos para iOS e Android utilizando JavaScript.",
+              "url": "https://rocketseat.com.br/starter/curso-gratuito-react-native"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Senai SP",
+      "subject": [
+        {
+          "id": 1,
+          "title": "Robotica",
+          "description": "O Curso de Aperfeiçoamento Profissional ? Robótica Industrial tem por objetivo o desenvolvimento de competências relativas à programação de robôs visando aplicações em sistemas da indústria e do comércio.",
+          "training": [
+            {
+              "id": 1,
+              "title": "Robotica Industrial",
+              "description": "Fundamentos:definição; histórico; áreas de aplicação. Robôs Industriais: aplicações; componentes; características funcionais; classificação; tipo de juntas; graus de liberdade; teach Pendant. Segurança na Operação de Robôs Industriais Linguagens e Interface de Programação: sistemas de Coordenadas; tipos de Movimento; instruções de Movimento, Controle, I/O e Aplicações Específicas. Sistemas Integrados: sensores aplicados à Robótica; dispositivos Periféricos; célula de Manufatura Robotizada.",
+              "url": "http://www.sp.senai.br/cursos/54624/109/robotica-industrial.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,12 +5,11 @@ import { Container, Content } from './styles';
 import doom from '../../assets/DOOM.jpg';
 import sonic from '../../assets/Sonic.jpg';
 import mario from '../../assets/Mario.jpg';
-import destiny from '../../assets/Destiny.jpg'
+import destiny from '../../assets/Destiny.jpg';
 
 export default function Topic01() {
   return (
     <Container>
-
       <Content>
         <h1> Desenvolvimento de Games</h1> 
  
@@ -32,7 +31,7 @@ export default function Topic01() {
       </Content>
 
       <Content>
-        <Link to="/partner">Onde Aprender</Link>
+        <Link to="/partner/1">Onde Aprender</Link>
       </Content>
 
     </Container>

@@ -31,7 +31,7 @@ export default function Topic02() {
         <iframe width="640" height="360" src="https://www.youtube.com/embed/8X5GQbVydTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="ia"></iframe>
       </Content>
       <Content>
-        <Link to="/partner">
+        <Link to="/partner/2">
             Onde Aprender
         </Link>
       </Content>

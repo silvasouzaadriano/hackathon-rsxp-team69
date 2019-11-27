@@ -44,7 +44,7 @@ export default function Topic04() {
         </iframe>
       </Content>
       <Content>
-        <Link to="/partner">
+        <Link to="/partner/4">
             Onde Aprender
         </Link>
       </Content>

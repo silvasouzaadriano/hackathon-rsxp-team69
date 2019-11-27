@@ -33,7 +33,7 @@ export default function Topic03() {
       </Content>
       
       <Content>
-      <Link to="/partner">
+      <Link to="/partner/3">
           Onde Aprender
       </Link>
       </Content>
