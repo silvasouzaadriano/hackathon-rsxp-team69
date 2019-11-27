@@ -17,7 +17,7 @@ export default function Routes() {
       <Route path="/topic02" component={Topic02} />
       <Route path="/topic03" component={Topic03} />
       <Route path="/topic04" component={Topic04} />
-      <Route path="/partner" component={Partner} />
+      <Route path="/partner/:id" component={Partner} />
     </Switch>
   );
 }

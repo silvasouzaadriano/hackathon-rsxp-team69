@@ -1,25 +1,67 @@
-import React from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import { triangle } from 'polished';
+import api from '../../services/api';
 
-import { Container } from './styles';
+import { PartnerList } from './styles';
 
-export default function Partner() {
+export default function Partner({ match }) {
+  const [partners, setPartners] = useState([]);
+
+  const partnerId = useMemo(
+    () => ({
+      value: match.params.id,
+    }),
+    [match.params.id]
+  );
+
+  useEffect(() => {
+    async function loadPartners() {
+      const response = await api.get('partner', {
+        params: { id: partnerId.value },
+      });
+
+      const data = response.data.map(partner => ({
+        ...partner,
+      }));
+
+      setPartners(data);
+    }
+
+    loadPartners();
+  }, [partnerId.value]);
+
   return (
-    <Container>
-      <h1>Conteúdos Gratuitos</h1>
-      <p><a href="https://pt.khanacademy.org" target='blank'>Khan Academy</a></p>
-      <p><a href="https://www.codecademy.com/pt" target='blank'>Codecademy</a></p>
-      <p><a href="http://br.code.org" target='blank'>Code.org</a></p>
-      <p><a href="https://www.codeavengers.com" target='blank'>Code Avengers</a></p>
-      <p><a href="http://www.dontfeartheinternet.com" target='blank'>Don't Fear the Internet</a></p>
-      <p><a href="https://codecombat.com" target='blank'>Code Combat</a></p>
-      <p><a href="https://code.tutsplus.com" target='blank'>Tuts+</a></p>
-      <br></br>
-      <h1>Parceiros de Treinamento</h1>
-      <p><a href="https://www.rocketseat.com.br" target='blank'>RocketSeat</a></p>
-      <p><a href="https://www.udemy.com" target='blank'>Udemy</a></p>
-      <p><a href="https://www.linkedin.com/learning/" target='blank'>LinkedIn Education</a></p>
-      <p><a href="https://www.microlins.com.br" target='blank'>Microlins</a></p>
-    </Container>
+    <PartnerList>
+      {partners.map(partner => (
+        <li key={partner.id}>
+          <strong>{partner.name}</strong>
+          {partner.subject.map(subject => (
+            <>
+              <span>{subject.title}</span>
+              <span className="description">{subject.description}</span>
+              {subject.training.map(training => (
+                <>
+                  <span>
+                    <a href={training.url} target="blank">
+                      {training.title}
+                    </a>
+                  </span>
+                </>
+              ))}
+            </>
+          ))}
+        </li>
+      ))}
+    </PartnerList>
   );
 }
+
+Partner.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
+};

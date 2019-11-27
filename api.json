@@ -1,0 +1,35 @@
+{
+  "partner": [
+    {
+      "id": 1,
+      "name": "Rocketseat",
+      "subject": [
+        {
+          "id": 1,
+          "title": "Mobile",
+          "description": "Neste curso você vai descobrir o jeito mais moderno de desenvolver apps nativos para iOS e Android, construindo do zero um app mobile e entendendo na prática como o React Native funciona.",
+          "training": [
+            {
+              "id": 1,
+              "title": "JavaScript",
+              "description": "Recomendado para quem quer se especializar em desenvolvimento web ou mobile com JavaScript.",
+              "url": "https://rocketseat.com.br/starter/curso-gratuito-javascript"
+            },
+            {
+              "id": 2,
+              "title": "EcmaScript6",
+              "description": "Esse curso é recomendado para quem deseja ir a fundo no JavaScript e iniciar com bibliotecas como ReactJS, VueJS, Angular, React Native e NodeJS.",
+              "url": "https://rocketseat.com.br/starter/curso-gratuito-javascript-es6"
+            },
+            {
+              "id": 3,
+              "title": "React Native",
+              "description": "Esse curso é recomendado para quem deseja criar apps mobile nativos para iOS e Android utilizando JavaScript.",
+              "url": "https://rocketseat.com.br/starter/curso-gratuito-react-native"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
